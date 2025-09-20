@@ -1,7 +1,0 @@
-INDEX VERSION 1.4+C:\2025-26_OddSem\JENKINSPRACTICE\JENKINSPRACTICE-FULLSTACK\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-692598405.index
-1397257113.index
-1317980716.index
-4122468351.index
-3670666958.index
-3391802695.index

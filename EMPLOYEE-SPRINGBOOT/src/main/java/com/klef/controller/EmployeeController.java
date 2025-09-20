@@ -20,7 +20,7 @@ import com.klef.entity.Employee;
 import com.klef.service.EmployeeService;
 
 @RestController
-@RequestMapping("/employeeapi")
+@RequestMapping("/employeeapi/")
 @CrossOrigin("*")
 public class EmployeeController {
 	

@@ -4,7 +4,7 @@ services:
     container_name: mysql-db
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: ems
+      MYSQL_DATABASE: empdb
     ports:
       - "3307:3306"
     volumes:
@@ -27,7 +27,7 @@ services:
     image: hemachandra07/docker-frontend:latest
     container_name: react
     ports:
-      - "3000:80"
+      - "4000:80"
     depends_on:
       - backend
     restart: on-failure

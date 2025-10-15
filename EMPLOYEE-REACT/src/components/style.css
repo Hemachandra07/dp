@@ -13,7 +13,7 @@ body {
   margin: 60px auto;
   padding: 40px;
   border-radius: 12px;
-  background: #1e1e1e; /* A slightly lighter shade of black for the container */
+  background: #1e1e1e; 
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* A more prominent shadow for depth */
   text-align: left;
 }

@@ -14,7 +14,7 @@ const EmployeeManager = () => {
   const [editMode, setEditMode] = useState(false);
   const [message, setMessage] = useState("");
 
-  const baseUrl = `${config.url}/employeeapi`;
+  const baseUrl = `${import.meta.env.VITE_API_URL}/employeeapi`;
 
   useEffect(() => {
     fetchAllEmployees();

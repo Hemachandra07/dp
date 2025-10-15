@@ -27,7 +27,7 @@ services:
     image: hemachandra07/docker-frontend:latest
     container_name: react
     ports:
-      - "4000:80"
+      - "9000:80"
     depends_on:
       - backend
     restart: on-failure
